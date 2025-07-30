@@ -81,3 +81,41 @@ def main():
             time.sleep(0.1)
     except KeyboardInterrupt:
         print("Bot stopped")
+        
+        # Программа для работы со списком чисел
+def main():
+    # Создаем пустой список
+    numbers = []
+    
+    # Заполняем список числами от 1 до 5
+    for i in range(1, 6):
+        numbers.append(i)
+    
+    # Выводим исходный список
+    print("Исходный список:", numbers)
+    
+    # Находим сумму всех чисел
+    total_sum = sum(numbers)
+    
+    # Находим среднее значение
+    average = total_sum / len(numbers)
+    
+    # Выводим результаты
+    print("Сумма чисел:", total_sum)
+    print("Среднее значение:", average)
+    
+    # Проверяем четность последнего числа
+    if numbers[-1] % 2 == 0:
+        print("Последнее число четное")
+    else:
+        print("Последнее число нечетное")
+
+# Запуск программы
+if __name__ == "__main__":
+    main()
+
+        
+        
+        
+        
+        
