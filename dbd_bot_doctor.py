@@ -5,20 +5,6 @@ import random
 
 # Global variable to track whether the script should run or not
 running = False
-
-# Function to print the intro
-def intro():
-    print("\nWelcome to Dead By Daylight AFK Farming BOT (The Doctor Edition) by")
-    print("______ _                               ___           _   _____ _     _ _ _ ")
-    print("| ___ \ |                             |_  |         | | /  __ \ |   (_) | |")
-    print("| |_/ / |__   __ ___   ___   _  __ _    | |_   _ ___| |_| /  \/ |__  _| | |")
-    print("| ___ \ '_ \ / _` \ \ / / | | |/ _` |   | | | | / __| __| |   | '_ \| | | |")
-    print("| |_/ / | | | (_| |\ V /| |_| | (_| /\__/ / |_| \__ \ |_| \__/\ | | | | | |")
-    print("\____/|_| |_|\__,_| \_/  \__, |\__,_\____/ \__,_|___/\__|\____/_| |_|_|_|_|")
-    print("                          __/ |                                            ")
-    print("                         |___/                                             ")
-    print("Go to Play -> Play as Killer and [ Press F8 to toggle Bot ON/OFF | CTRL + C to Exit ]\n")
-
 # Function to perform right click with specified delay
 def right_click(delay):
     pyautogui.mouseDown(button='right')
